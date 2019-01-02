@@ -31,8 +31,7 @@ Ensure `mysql, node, sails` are installed
 
 #### Source
 
-Checkout the project
-
+Checkout the project and run `npm install`
 
 #### Setup
 
