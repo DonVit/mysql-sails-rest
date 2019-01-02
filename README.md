@@ -35,7 +35,7 @@ Checkout the project and run `npm install`
 
 #### Setup
 
-Create database `sails` and configure database connection details in [config/datastore.js](config/datastore.js)
+Create database `sails` and configure database connection details in [config/datastores.js](config/datastores.js)
 
 Setup you models in  [api/models](api/models)
 
