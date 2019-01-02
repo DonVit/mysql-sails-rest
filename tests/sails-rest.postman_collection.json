@@ -1,0 +1,55 @@
+{
+	"info": {
+		"_postman_id": "31c102b6-ab67-4f03-b302-e0346cc31fa1",
+		"name": "sails-rest",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "comment-get",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://localhost:1337/Comment",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "1337",
+					"path": [
+						"Comment"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "comment-post",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"firstName\": \"Jhon\",\r\n  \"lastName\": \"Doe\",\r\n  \"email\": \"JhonDoe@gmail.com\"\r\n}"
+				},
+				"url": {
+					"raw": "http://localhost:1337/Comment",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "1337",
+					"path": [
+						"Comment"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
